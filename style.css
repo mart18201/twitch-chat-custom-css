@@ -75,7 +75,9 @@ span[aria-hidden="true"] {
 }
 
 
-.user-notice-line{
+.user-notice-line,
+.ffz-notice-line,
+.ffz--subscribe-line{
   display:none;
 }
 
