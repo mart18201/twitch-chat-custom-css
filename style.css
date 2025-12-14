@@ -60,6 +60,7 @@ span[aria-hidden="true"] {
 	/*display: none !important;*/
 }
 
+.tw-c-text-alt-2,
 .Layout-sc-1xcs6mc-0.eOHCrm,
 .stream-chat-header,
 .channel-leaderboard-container,
@@ -104,6 +105,20 @@ span[aria-hidden="true"] {
 
 .chat-line__no-background{
 font-family: "M PLUS 1p", sans-serif;}
+/* ユーザー名にもメッセージと同じ縁取りを適用 */
+.chat-author__display-name,
+.chatter-name .tw-strong,
+.chat-line__username-container .chat-author__display-name {
+  text-shadow:
+        var(--shadow-color) 2px 0px,  var(--shadow-color) -2px 0px,
+        var(--shadow-color) 0px -2px, var(--shadow-color) 0px 2px,
+        var(--shadow-color) 2px 2px , var(--shadow-color) -2px 2px,
+        var(--shadow-color) 2px -2px, var(--shadow-color) -2px -2px,
+        var(--shadow-color) 1px 2px,  var(--shadow-color) -1px 2px,
+        var(--shadow-color) 1px -2px, var(--shadow-color) -1px -2px,
+        var(--shadow-color) 2px 1px,  var(--shadow-color) -2px 1px,
+        var(--shadow-color) 2px -1px, var(--shadow-color) -2px -1px;
+}
 :root{
 --shadow-color:#323232;
 }
